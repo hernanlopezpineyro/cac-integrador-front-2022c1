@@ -1,0 +1,15 @@
+.imagen-fondo {
+    background-image: url(../img/ba1.jpg);  
+    background-repeat: no-repeat;
+    background-position: left top;
+    color: white;
+}
+.caja-texto {
+  width: 1000px;
+  padding left: 3500px;
+  margin: 200px;
+  color: white;
+}
+.linksbarra1 {
+    text-align: right
+}
