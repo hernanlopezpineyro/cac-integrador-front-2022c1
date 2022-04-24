@@ -1,14 +1,12 @@
 .imagen-fondo {
   background-image: url(../img/ba1.jpg);
+  background-size: 100% auto;
+  background-position: center top;
   background-repeat: no-repeat;
-  background-position: left top;
   color: white;
-  width: 1000px;
-  padding left: 3500px;
-  margin: 200px;
-  color: white;
-}
-
-.linksbarra1 {
-  text-align: right
+  text-align: right;
+  padding-left: 50%;
+  padding-top: 20%;
+  padding-bottom: 15%;
+  padding-right: 10%;
 }
