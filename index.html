@@ -41,13 +41,19 @@
                     </div>
             </div>
     </nav>
-    <div class="conteiner-fluid">
+    <div class="conteiner mt-3">
         <div class="row imagen-fondo">
             <h3>Conf Buenos Aires</h3>
             <p>Un evento para compartir con nuestra comunidad: el conocimiento y la experencia de los que están
                 creando el futuro de internet. Veni a conocer a los mienbros del evento, a otros estudiantes de Codo
                 a
                 Codo y a lxs oradores de primer nivel que tenemos para vos.¡Te esperamos!</p>
+            <div class="col ALIGN-right">
+                <button type="button" class="btn btn-outline-light text-light">Quiero ser orador</button>
+            </div>
+            <div class="col ALIGN-right">
+                <button type="button" class="btn btn-success">Comprar tickets</button>
+            </div>
         </div>
     </div>
     <div class="container-sm p-2">
@@ -55,9 +61,11 @@
             <h6 ALIGN="CENTER">CONOCÉ A LOS</h6>
             <H4 ALIGN="CENTER">ORADORES</H4>
             <div class="col">
-                <div class="card" style="width:400px">
+                <div class="card">
                     <img class="card-img-top" src="img/steve.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
+                        <span class="badge bg-warning">JavaScript</span>
+                        <span class="badge bg-primary">React</span>
                         <h4 class="card-title">Steve Jobs</h4>
                         <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, quis
                             praesentium voluptates saepe incidunt doloribus vero quod esse iusto sequi veritatis, nam
@@ -66,9 +74,11 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card" style="width:400px">
+                <div class="card">
                     <img class="card-img-top" src="img/bill.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
+                        <span class="badge bg-warning">JavaScript</span>
+                        <span class="badge bg-primary">React</span>
                         <h4 class="card-title">Bill Gates</h4>
                         <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, quis
                             praesentium voluptates saepe incidunt doloribus vero quod esse iusto sequi veritatis, nam
@@ -77,9 +87,11 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card" style="width:400px">
+                <div class="card">
                     <img class="card-img-top" src="img/ada.jpeg" alt="Card image" style="width:100%">
                     <div class="card-body">
+                        <span class="badge bg-secondary">Negocios</span>
+                        <span class="badge bg-danger">Startups</span>
                         <h4 class="card-title">Ada Lovelace</h4>
                         <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, quis
                             praesentium voluptates saepe incidunt doloribus vero quod esse iusto sequi veritatis, nam
@@ -89,16 +101,17 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid mt-6">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-6 p-6"><img class="img-fluid" src="img/honolulu.jpg" alt=""></div>
-            <div class="col-sm-6 p-6 bg-dark text-white">
+            <div class="col"><img class="img-fluid" src="img/honolulu.jpg" alt=""></div>
+            <div class="col bg-dark text-white">
                 <h3>Buenos Aires - Octubre</h3>
                 <p>Buenos Aires es la gran capital cosmopolita de Argentina. Su centro es la Plaza de Mayo, rodeada de
                     imponentes edificios del siglo XIX, incluida la Casa Rosada, el icónico palacio presidencial que
                     tiene varios balcones. Entre otras atracciones importantes, se incluyen el Teatro Colón, un lujoso
                     teatro de ópera de 1908 con cerca de 2,500 asientos, y el moderno museo MALBA, que exhibe arte
                     latinoamericano.</p>
+                <button type="button" class="btn btn-sm btn-outline-light text-light">Conocé más</button>
             </div>
         </div>
     </div>
@@ -113,8 +126,10 @@
             <div class="col p-2">
                 <input type="text" class="form-control" placeholder="Apellido" name="Apellido">
             </div>
-            <textarea class="form-control" rows="5" id="comment" placeholder="¿Sobre qué querés hablar?"
-                name="text"></textarea>
+            <div class="p-2">
+                <textarea class="form-control" rows="5" id="comment" placeholder="¿Sobre qué querés hablar?"
+                    name="text"></textarea>
+            </div>
         </div>
         <p>¡Acordate de incluir un título!</p>
         <button type="submit" class="btn btn-success">Enviar</button>
